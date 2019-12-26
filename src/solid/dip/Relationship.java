@@ -1,4 +1,4 @@
-package dip;
+package solid.dip;
 
 /*
 
