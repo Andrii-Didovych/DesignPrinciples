@@ -52,8 +52,6 @@ class PersonBuilder<SELF extends PersonBuilder<SELF>> {
     public Person build() {
         return person;
     }
-
-
 }
 
 class EmployeeBuilder extends PersonBuilder<EmployeeBuilder> {
