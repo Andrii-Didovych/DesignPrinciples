@@ -1,4 +1,4 @@
-package builder;
+package creational.builder;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -72,7 +72,7 @@ class HtmlBuilder {
 public class Demo {
 
     public static void main(String[] args) {
-        System.out.println("String builder");
+        System.out.println("String creational.builder");
         String hello = "Hello";
         System.out.println("<p>" + hello + "</p>");
 
@@ -87,7 +87,7 @@ public class Demo {
         System.out.println(sb);
 
 
-        System.out.println("\nCustom builder");
+        System.out.println("\nCustom creational.builder");
         final HtmlBuilder builder = new HtmlBuilder("ul");
         builder
                 .addChild("li", "hello")

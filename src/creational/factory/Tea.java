@@ -1,4 +1,4 @@
-package factory;
+package creational.factory;
 
 import org.apache.commons.lang3.tuple.Pair;
 import org.reflections.Reflections;
@@ -109,10 +109,10 @@ class HotDrinkMachine {
     public static class InitFactory {
 
         public static HotDrinkMachine reflectionInit() throws Exception {
-            final Set<Class<? extends HotDrinkFactory>> types = new Reflections("factory.")
+            final Set<Class<? extends HotDrinkFactory>> factories = new Reflections("creational.factory.")
                     .getSubTypesOf(HotDrinkFactory.class);
 
-            for (Class<? extends HotDrinkFactory> type : types) {
+            for (Class<? extends HotDrinkFactory> type : factories) {
                 namedFactories.add(Pair.of(
                         type.getSimpleName().replace("Factory", ""),
                         type.getDeclaredConstructor().newInstance()

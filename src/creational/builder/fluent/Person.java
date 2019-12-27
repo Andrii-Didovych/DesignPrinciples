@@ -1,4 +1,4 @@
-package builder.fluent;
+package creational.builder.fluent;
 
 public class Person {
 

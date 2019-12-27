@@ -1,4 +1,4 @@
-package builder.faceted;
+package creational.builder.faceted;
 
 public class Person {
 
