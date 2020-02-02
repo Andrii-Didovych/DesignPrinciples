@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7b576bb-bf0e-490b-ba7e-534c50251a43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/BasicSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/ChiefExecutiveOfficer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/EnumBasedSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/InnerStaticSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/Multiton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/singletone/StaticBlockSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/facade/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/FormattedText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/Drivable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/proxy/Property.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Design Principles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Design Principles.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,13 +75,39 @@
       <recent name="dip" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingletonTestabilityDemo">
-    <configuration name="DemoStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singletone.DemoStatic" />
+  <component name="RunManager" selected="Application.PropertyProxyDemo">
+    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.Demo" />
       <module name="Design Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singletone.*" />
+          <option name="PATTERN" value="structural.flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.proxy.Demo" />
+      <module name="Design Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.facade.Demo" />
+      <module name="Design Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structural.facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumBasedSingletonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singletone.EnumBasedSingletonDemo" />
+    <configuration name="PropertyProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.proxy.PropertyProxyDemo" />
       <module name="Design Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singletone.*" />
+          <option name="PATTERN" value="structural.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,38 +180,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonostateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singletone.MonostateDemo" />
+    <configuration name="TextFormattingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.TextFormattingDemo" />
       <module name="Design Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="creational.singletone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Multiton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singletone.Multiton" />
-      <module name="Design Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.singletone.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTestabilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="creational.singletone.SingletonTestabilityDemo" />
-      <module name="Design Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creational.singletone.*" />
+          <option name="PATTERN" value="structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingletonTestabilityDemo" />
-        <item itemvalue="Application.Multiton" />
-        <item itemvalue="Application.MonostateDemo" />
-        <item itemvalue="Application.EnumBasedSingletonDemo" />
-        <item itemvalue="Application.DemoStatic" />
+        <item itemvalue="Application.PropertyProxyDemo" />
+        <item itemvalue="Application.Demo (2)" />
+        <item itemvalue="Application.TextFormattingDemo" />
+        <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +220,7 @@
       <workItem from="1577474421237" duration="2968000" />
       <workItem from="1580190555761" duration="13684000" />
       <workItem from="1580277832258" duration="7029000" />
-      <workItem from="1580642673933" duration="7413000" />
+      <workItem from="1580642673933" duration="16151000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1577176662358</created>
@@ -278,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580203620363</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="singleton">
+      <created>1580650800789</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580650800789</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +318,8 @@
     <MESSAGE value="Factory" />
     <MESSAGE value="Adapter" />
     <MESSAGE value="bridge" />
-    <option name="LAST_COMMIT_MESSAGE" value="bridge" />
+    <MESSAGE value="singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580650001538">
@@ -329,42 +330,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1580646814772" />
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1580650547181">
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1580666873147">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580650547181" />
-    <state width="1493" height="158" key="GridCell.Tab.0.bottom" timestamp="1580650271430">
+    <state x="574" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580666873147" />
+    <state x="524" y="116" key="#xdebugger.evaluate" timestamp="1580663167570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580650271430" />
-    <state width="1493" height="158" key="GridCell.Tab.0.center" timestamp="1580650271430">
+    <state x="524" y="116" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1580663167570" />
+    <state x="327" y="8" key="CommitChangelistDialog2" timestamp="1580650798663">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580650271430" />
-    <state width="1493" height="158" key="GridCell.Tab.0.left" timestamp="1580650271429">
+    <state x="327" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580650798663" />
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom" timestamp="1580667929357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580650271429" />
-    <state width="1493" height="158" key="GridCell.Tab.0.right" timestamp="1580650271430">
+    <state width="1493" height="291" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580667929357" />
+    <state width="1493" height="291" key="GridCell.Tab.0.center" timestamp="1580667929357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580650271430" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1580646743315">
+    <state width="1493" height="291" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580667929357" />
+    <state width="1493" height="291" key="GridCell.Tab.0.left" timestamp="1580667929357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580646743315" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1580646743314">
+    <state width="1493" height="291" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580667929357" />
+    <state width="1493" height="291" key="GridCell.Tab.0.right" timestamp="1580667929357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580646743314" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1580646743314">
+    <state width="1493" height="291" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580667929357" />
+    <state width="1493" height="295" key="GridCell.Tab.1.bottom" timestamp="1580667051779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580646743314" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1580646743314">
+    <state width="1493" height="295" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580667051779" />
+    <state width="1493" height="295" key="GridCell.Tab.1.center" timestamp="1580667051778">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580646743314" />
+    <state width="1493" height="295" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580667051778" />
+    <state width="1493" height="295" key="GridCell.Tab.1.left" timestamp="1580667051778">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580667051778" />
+    <state width="1493" height="295" key="GridCell.Tab.1.right" timestamp="1580667051778">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="295" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580667051778" />
     <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1580649758508">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -377,6 +386,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1580650264962" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1580650805415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580650805415" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580648304115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
