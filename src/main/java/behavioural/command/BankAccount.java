@@ -37,6 +37,48 @@ interface Command {
     void undo();
 }
 
+class DepositCommand implements Command {
+    private BankAccount account;
+    private int amount;
+
+    public DepositCommand(BankAccount account, int amount) {
+        this.account = account;
+        this.amount = amount;
+    }
+
+    @Override
+    public void call() {
+        account.deposit(amount);
+    }
+
+    @Override
+    public void undo() {
+        account.withDraw(amount);
+    }
+}
+
+class WithdrawCommand implements Command {
+    private boolean succeeded;
+    private BankAccount account;
+    private int amount;
+
+    public WithdrawCommand(BankAccount account, int amount) {
+        this.account = account;
+        this.amount = amount;
+    }
+
+    @Override
+    public void call() {
+       succeeded = account.withDraw(amount);
+    }
+
+    @Override
+    public void undo() {
+        if (!succeeded) return;
+        account.deposit(amount);
+    }
+}
+
 enum Action {DEPOSIT, WITHDRAW}
 
 class BankAccountCommand implements Command{
@@ -88,9 +130,14 @@ class Demo {
         BankAccount ba = new BankAccount();
         System.out.println(ba);
 
-        final List<BankAccountCommand> commands = Arrays.asList(
-                new BankAccountCommand(ba, Action.DEPOSIT, 100),
-                new BankAccountCommand(ba, Action.WITHDRAW, 1000));
+//        final List<BankAccountCommand> commands = Arrays.asList(
+//                new BankAccountCommand(ba, Action.DEPOSIT, 100),
+//                new BankAccountCommand(ba, Action.WITHDRAW, 1000));
+
+        final List<Command> commands = Arrays.asList(
+                new DepositCommand(ba, 100),
+                new WithdrawCommand(ba, 1000)
+        );
 
         for (Command c : commands) {
             c.call();
