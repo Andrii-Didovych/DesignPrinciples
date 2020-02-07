@@ -4,8 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/structural/proxy/DynamicProxy.java" line="55" mnemonic="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b576bb-bf0e-490b-ba7e-534c50251a43" name="Default Changelist" comment="singleton">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/command/BankAccount.java" afterDir="false" />
+    <list default="true" id="a7b576bb-bf0e-490b-ba7e-534c50251a43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioural/strategy/OutputFormat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/Property.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structural/proxy/Project.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/structural/chain0fresponsibility/Creature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="480">
               <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="e#1095#1096#0" expanded="true" />
@@ -58,13 +49,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/command/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="91" column="72" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+            <state relative-caret-position="-1015">
+              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/strategy/OutputFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="118" column="44" lean-forward="true" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1805#1806#0" expanded="true" />
+                <element signature="e#1841#1842#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
+                <element signature="e#2380#2381#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2457#2458#0" expanded="true" />
+                <element signature="e#2493#2494#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2325">
-              <caret line="155" column="36" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+            <state relative-caret-position="2580">
+              <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -181,7 +198,9 @@
         <option value="$PROJECT_DIR$/src/main/java/structural/chain0fresponsibility/Event.java" />
         <option value="$PROJECT_DIR$/src/main/java/structural/chain0fresponsibility/Creature.java" />
         <option value="$PROJECT_DIR$/src/main/java/structural/chain0fresponsibility/cqs/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioural/command/command/BankAccount.java" />
         <option value="$PROJECT_DIR$/src/main/java/behavioural/command/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behavioural/strategy/OutputFormat.java" />
       </list>
     </option>
   </component>
@@ -205,6 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,7 +257,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioural" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioural" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioural" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="BankAccount.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioural" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioural" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="OutputFormat.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
@@ -246,8 +305,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -264,13 +321,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580981402454" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581071997153" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/reflections-0.9.10.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5133452" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -294,12 +351,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Demo (1)">
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioural.command.Demo" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.chain0fresponsibility.Demo" />
       <module name="Design Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioural.command.*" />
+          <option name="PATTERN" value="structural.chain0fresponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,11 +365,24 @@
       </method>
     </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.chain0fresponsibility.Demo" />
+      <option name="MAIN_CLASS_NAME" value="behavioural.command.Demo" />
       <module name="Design Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.chain0fresponsibility.*" />
+          <option name="PATTERN" value="behavioural.command.command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioural.strategy.Demo" />
+      <module name="Design Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioural.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -414,10 +484,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Demo (1)" />
+        <item itemvalue="Application.Demo (1)" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ProjectRunner" />
         <item itemvalue="Application.ProjectRnner" />
-        <item itemvalue="Application.DynamicProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -439,7 +509,8 @@
       <workItem from="1580190555761" duration="13684000" />
       <workItem from="1580277832258" duration="7029000" />
       <workItem from="1580642673933" duration="16151000" />
-      <workItem from="1580978296343" duration="2897000" />
+      <workItem from="1580978296343" duration="4318000" />
+      <workItem from="1581063060198" duration="5110000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1577176662358</created>
@@ -504,17 +575,31 @@
       <option name="project" value="LOCAL" />
       <updated>1580892854501</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="command">
+      <created>1580981423614</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1580981423614</updated>
+    </task>
+    <task id="LOCAL-00011" summary="command">
+      <created>1580982604336</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1580982604336</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14429000" />
+    <option name="totallyTimeSpent" value="20960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24847814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25124517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,7 +608,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25809935" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25809935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42224622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -589,7 +674,8 @@
     <MESSAGE value="Adapter" />
     <MESSAGE value="bridge" />
     <MESSAGE value="singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="singleton" />
+    <MESSAGE value="command" />
+    <option name="LAST_COMMIT_MESSAGE" value="command" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580650001538">
@@ -816,6 +902,14 @@
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/behavioural/command/BankAccount.java</url>
+          <line>128</line>
+          <properties class="behavioural.command.command.Demo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -916,6 +1010,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/chain0fresponsibility/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+          <folding>
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/structural/chain0fresponsibility/cqs/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
@@ -961,8 +1066,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2325">
-          <caret line="155" column="36" selection-start-line="155" selection-start-column="36" selection-end-line="155" selection-end-column="36" />
+        <state relative-caret-position="2580">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -984,23 +1089,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/structural/chain0fresponsibility/Creature.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/command/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="-1015">
+          <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
           <folding>
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/command/BankAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/strategy/OutputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="91" column="72" selection-start-line="91" selection-start-column="72" selection-end-line="91" selection-end-column="72" />
+        <state relative-caret-position="1320">
+          <caret line="118" column="44" lean-forward="true" selection-start-line="118" selection-start-column="44" selection-end-line="118" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2457#2458#0" expanded="true" />
+            <element signature="e#2493#2494#0" expanded="true" />
           </folding>
         </state>
       </provider>
