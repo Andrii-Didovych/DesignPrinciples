@@ -1,97 +1,77 @@
 package behavioural.nullobject;
 
 
-interface Log
-{
+import java.lang.reflect.Proxy;
+
+interface Log {
     void info(String msg);
     void warn(String msg);
 }
 
-class ConsoleLog implements Log
-{
+class ConsoleLog implements Log {
 
     @Override
-    public void info(String msg)
-    {
+    public void info(String msg) {
         System.out.println(msg);
     }
 
     @Override
-    public void warn(String msg)
-    {
+    public void warn(String msg) {
         System.out.println("WARNING: " + msg);
     }
 }
 
-class BankAccount
-{
+class BankAccount {
     private Log log;
     private int balance;
 
-    public BankAccount(Log log)
-    {
+    public BankAccount(Log log) {
         this.log = log;
     }
 
-    public void deposit(int amount)
-    {
+    public void deposit(int amount) {
         balance += amount;
 
-        // check for null everywhere?
-        if (log != null)
-        {
-            log.info("Deposited " + amount
-                    + ", balance is now " + balance);
-        }
+        log.info("Deposited " + amount
+                + ", balance is now " + balance);
     }
 
-    public void withdraw(int amount)
-    {
-        if (balance >= amount)
-        {
-            balance -= amount;
-            if (log != null)
-            {
-                System.out.println("Withdrew " + amount
-                        + ", we have " + balance + " left");
-            }
-        }
-        else {
-            if (log != null)
-            {
-                System.out.println("Could not withdraw "
-                        + amount + " because balance is only " + balance);
-            }
-        }
-    }
 }
 
-final class NullLog implements Log
-{
+final class NullLog implements Log {
 
     @Override
-    public void info(String msg)
-    {
-
-    }
+    public void info(String msg) {}
 
     @Override
-    public void warn(String msg)
-    {
-
-    }
+    public void warn(String msg) {}
 }
 
-class NullObjectDemo
-{
-    public static void main(String[] args)
-    {
-        //ConsoleLog log = new ConsoleLog();
+class NullObjectDemo {
+
+    public static <T> T noOp(Class<T> itf) {
+        return (T) Proxy.newProxyInstance(
+                itf.getClassLoader(),
+                new Class<?>[]{itf},
+                (o, method, objects) -> {
+                    if (method.getReturnType().equals(Void.TYPE)) {
+                        return null;
+                    } else {
+                        return method.getReturnType().getConstructor().newInstance();
+                    }
+                }
+        );
+    }
+
+    public static void main(String[] args) {
+        //Log log = new ConsoleLog();
         //Log log = null;
-        NullLog log = new NullLog();
+
+//        Log log = new NullLog();
+
+        Log log = noOp(Log.class);
 
         BankAccount ba = new BankAccount(log);
         ba.deposit(100);
-        ba.withdraw(200);
     }
 }
