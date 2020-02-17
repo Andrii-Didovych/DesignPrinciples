@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b576bb-bf0e-490b-ba7e-534c50251a43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/structural/mvp/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioural/nullobject/NullObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioural/nullobject/NullObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/builder/fluent/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/builder/fluent/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,36 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/iterator/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/List.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/util/Collection.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/lang/Iterable.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,11 +58,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/nullobject/NullObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+            <state relative-caret-position="770">
+              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/structural/mvp/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="35">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+              <folding>
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/fluent/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-775">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1308#1309#0" expanded="true" />
+                <element signature="e#1335#1336#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +156,12 @@
         <option value="$PROJECT_DIR$/src/main/java/behavioural/template/game.java" />
         <option value="$PROJECT_DIR$/src/main/java/behavioural/template/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/behavioural/nullobject/NullObject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/mvp/UserInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/mvp/View.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/mvvm/PetViewModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/fluentinterface/person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/structural/fluentinterface/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/creational/builder/fluent/Person.java" />
       </list>
     </option>
   </component>
@@ -178,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -209,7 +217,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioural" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
@@ -217,8 +225,46 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="behavioural" type="462c0819:PsiDirectoryNode" />
-              <item name="nullobject" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="fluent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+              <item name="fluent" type="462c0819:PsiDirectoryNode" />
+              <item name="Person.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Design Prinsiples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="structural" type="462c0819:PsiDirectoryNode" />
+              <item name="flyweight" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Design Prinsiples" type="b2602c69:ProjectViewProjectNode" />
@@ -229,7 +275,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -246,7 +291,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581589416510" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581926871332" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/reflections-0.9.10.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -275,26 +320,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NullObjectDemo">
-    <configuration name="ArrayBackedPropertiesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioural.iterator.ArrayBackedPropertiesDemo" />
+  <component name="RunManager" selected="Application.PersonDemo">
+    <configuration name="Demo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.mvp.Demo" />
       <module name="Design Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioural.iterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioural.iterator.Demo" />
-      <module name="Design Principles" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="behavioural.iterator.*" />
+          <option name="PATTERN" value="structural.mvp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +335,11 @@
       </method>
     </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.chain0fresponsibility.Demo" />
+      <option name="MAIN_CLASS_NAME" value="structural.fluentinterface.Demo" />
       <module name="Design Principles" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.chain0fresponsibility.*" />
+          <option name="PATTERN" value="structural.fluentinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,13 +451,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.builder.fluent.PersonDemo" />
+      <module name="Design Principles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.builder.fluent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PersonDemo" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Demo (2)" />
         <item itemvalue="Application.NullObjectDemo" />
         <item itemvalue="Application.DeveloperRunner" />
-        <item itemvalue="Application.ArrayBackedPropertiesDemo" />
-        <item itemvalue="Application.Demo (1)" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +495,8 @@
       <workItem from="1580978296343" duration="4318000" />
       <workItem from="1581063060198" duration="5274000" />
       <workItem from="1581406333485" duration="5664000" />
-      <workItem from="1581587737086" duration="2173000" />
+      <workItem from="1581587737086" duration="2212000" />
+      <workItem from="1581922880818" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="rename">
       <created>1577176662358</created>
@@ -543,17 +589,23 @@
       <option name="project" value="LOCAL" />
       <updated>1581412466556</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="null object">
+      <created>1581589919819</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581589919819</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28961000" />
+    <option name="totallyTimeSpent" value="32324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2567792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25954622" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -562,7 +614,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25809935" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25809935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42224622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -638,7 +690,8 @@
     <MESSAGE value="command" />
     <MESSAGE value="strategy" />
     <MESSAGE value="iterator, template, null object" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterator, template, null object" />
+    <MESSAGE value="null object" />
+    <option name="LAST_COMMIT_MESSAGE" value="null object" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580650001538">
@@ -1140,8 +1193,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/behavioural/nullobject/NullObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="770">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/mvvm/PetViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/mvp/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/structural/fluentinterface/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/creational/builder/fluent/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

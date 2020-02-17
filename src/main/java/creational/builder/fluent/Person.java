@@ -46,11 +46,15 @@ class PersonBuilder<SELF extends PersonBuilder<SELF>> {
 
     public SELF withName(String name) {
         person.name = name;
-        return (SELF) this;
+        return self();
     }
 
     public Person build() {
         return person;
+    }
+
+    protected SELF self() {
+        return (SELF) this;
     }
 }
 
@@ -61,6 +65,10 @@ class EmployeeBuilder extends PersonBuilder<EmployeeBuilder> {
         return this;
     }
 
+    @Override
+    protected EmployeeBuilder self() {
+        return this;
+    }
 }
 
 class PersonDemo {
